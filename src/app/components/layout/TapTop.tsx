@@ -1,7 +1,7 @@
 import { Button } from "reactstrap";
-import { dynamicImage, Image } from "../utils";
-import UsePathName from "../utils/UsePathName";
-import UseStickyBar from "../utils/UseStickyBar";
+import { dynamicImage, Image } from "../../../utils";
+import UsePathName from "../../../utils/UsePathName";
+import UseStickyBar from "../../../utils/UseStickyBar";
 
 const TapTop = () => {
   const fix = UseStickyBar(100);

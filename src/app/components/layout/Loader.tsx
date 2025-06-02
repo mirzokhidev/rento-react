@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Loaders } from "../data/layout/Loader";
-import { dynamicGrf, Image } from "../utils";
-import UsePathName from "../utils/UsePathName";
+import { Loaders } from "../../../data/layout/Loader";
+import { dynamicGrf, Image } from "../../../utils";
+import UsePathName from "../../../utils/UsePathName";
 
 const Loader = () => {
   const [show, setShow] = useState<boolean>(true);

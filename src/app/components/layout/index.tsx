@@ -1,10 +1,10 @@
 import Aos from "aos";
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
-import SearchModal from "../components/commonComponents/modals/SearchModal";
-import { PathSettings, SearchModalData } from "../data/layout/Layout";
-import { SetFavicon } from "../utils/SetFavicon";
-import UsePathName from "../utils/UsePathName";
+import SearchModal from "../../../components/commonComponents/modals/SearchModal";
+import { PathSettings, SearchModalData } from "../../../data/layout/Layout";
+import { SetFavicon } from "../../../utils/SetFavicon";
+import UsePathName from "../../../utils/UsePathName";
 import Header from "./header";
 import Loader from "./Loader";
 import MobileMenu from "./MobileMenu";

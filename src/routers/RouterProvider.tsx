@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Layout from "../layout";
+import Layout from "../app/components/layout";
 import CarScrollspy from "../pages/car/detail/CarScrollspy";
 import CarTopCategory from "../pages/car/other/CarTopCategory";
 import CarDemo1 from "../pages/home/CarDemo1";

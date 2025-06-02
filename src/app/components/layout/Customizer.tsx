@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Button } from "reactstrap";
-import UsePathName from "../utils/UsePathName";
-import { ModeButtonHidden } from "../data/pages/Other";
-import configDB from "../config/themeConfig";
+import UsePathName from "../../../utils/UsePathName";
+import { ModeButtonHidden } from "../../../data/pages/Other";
+import configDB from "../../../config/themeConfig";
 
 const Customizer = () => {
   const [isLayoutMode, setLayoutMode] = useState(false);

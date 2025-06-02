@@ -1,10 +1,10 @@
 import { Heart, House, Profile, SearchNormal1 } from "iconsax-react";
 import { Link } from "react-router-dom";
-import { Home, Href, ProfileTitle, Search, Shortlist } from "../constants";
-import { routes } from "../routers/routes";
-import { setSearchModal } from "../reduxToolkit/reducers/layoutSlice";
-import { useAppDispatch } from "../reduxToolkit/hooks";
-import UsePathName from "../utils/UsePathName";
+import { Home, Href, ProfileTitle, Search, Shortlist } from "../../../constants";
+import { routes } from "../../../routers/routes";
+import { setSearchModal } from "../../../reduxToolkit/reducers/layoutSlice";
+import { useAppDispatch } from "../../../reduxToolkit/hooks";
+import UsePathName from "../../../utils/UsePathName";
 
 const MobileMenu = () => {
   const dispatch = useAppDispatch();
