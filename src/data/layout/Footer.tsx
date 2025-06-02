@@ -19,23 +19,12 @@ export const SocialMediaData: IconLinkList[] = [
 export const FooterDetailData: FooterDetailType[] = [
   {
     id: 1,
-    title: "Location",
-    links: [
-      { title: "New York", url: routes.Car.Listing.CarLeftList },
-      { title: "London", url: routes.Car.Listing.CarLeftList },
-      { title: "Prague", url: routes.Car.Listing.CarLeftList },
-      { title: "Cape Town", url: routes.Car.Listing.CarLeftList },
-      { title: "Singapore", url: routes.Car.Listing.CarLeftList },
-    ],
-  },
-  {
-    id: 2,
     title: "Quick Links",
     links: [
       { title: "Saved Rides", url: routes.Pages.Other.UserDashboard },
       { title: "Profile", url: routes.Pages.Other.UserDashboard },
       { title: "Post Cars", url: routes.Pages.Other.UserDashboard },
-      { title: "Privacy", url: routes.Pages.Other.Privacy },
+    
     ],
   },
   {
@@ -48,26 +37,25 @@ export const FooterDetailData: FooterDetailType[] = [
       { title: "general.info@gmail.com", icon: "ri-mail-fill" },
     ],
   },
-  {
-    id: 4,
-    title: "Resources",
-    links: [
-      { title: "Portfolio", url: routes.Property.Grid.Property3Grid },
-      { title: "Blog", url: routes.Pages.Blog.BlogLeftSidebar },
-      { title: "Pricing", url: routes.Pages.Other.Pricing },
-      { title: "Register", url: routes.Pages.Other.SignUp1 },
-      { title: "Review", url: routes.Pages.Other.Testimonial },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "Resources",
+  //   links: [
+  //     { title: "Blog", url: routes.Pages.Blog.BlogLeftSidebar },
+  //     { title: "Pricing", url: routes.Pages.Other.Pricing },
+  //     { title: "Register", url: routes.Pages.Other.SignUp },
+  //     { title: "Review", url: routes.Pages.Other.Testimonial },
+  //   ],
+  // },
   {
     id: 5,
     title: "About",
     links: [
-      { title: "About Us", url: routes.Pages.Other.AboutUs1 },
-      { title: "Service", url: routes.Pages.Other.Services },
+      { title: "About Us", url: routes.Pages.Other.AboutUs },
+     
       { title: "FAQs", url: routes.Pages.Other.Faq },
-      { title: "Teams", url: routes.Pages.Other.Team },
-      { title: "Contact Us", url: routes.Pages.Other.ContactUs1 },
+    
+      { title: "Contact Us", url: routes.Pages.Other.Contact},
     ],
   },
 ];

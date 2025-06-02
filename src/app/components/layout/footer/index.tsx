@@ -37,7 +37,7 @@ const FooterDemo1 = () => {
           <Row className="gy-4">
             <Col lg="3" xs="12">
               <div className="footer-branding-wrapper">
-                <Link to={routes.Home.CarDemo1} className="footer-logo">
+                <Link to={routes.Home.Landing} className="footer-logo">
                   Rentoo
                 </Link>
                 <p>Find your ideal car with personalized support, together.</p>

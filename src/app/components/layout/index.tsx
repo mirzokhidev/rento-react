@@ -1,7 +1,7 @@
 import Aos from "aos";
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
-import SearchModal from "../../../components/commonComponents/modals/SearchModal";
+
 import { PathSettings, SearchModalData } from "../../../data/layout/Layout";
 import { SetFavicon } from "../../../utils/SetFavicon";
 import UsePathName from "../../../utils/UsePathName";
@@ -11,6 +11,7 @@ import MobileMenu from "./MobileMenu";
 import TapTop from "./TapTop";
 import Customizer from "./Customizer";
 import FooterDemo1 from "./footer";
+import SearchModal from "../commonComponents/modals/SearchModal";
 
 const Layout = () => {
   const Path = UsePathName();

@@ -1,14 +1,15 @@
 import { Autoplay, FreeMode, Navigation, Thumbs } from "swiper/modules";
 import { AmenitiesTitle, CarFAQTitle, DescriptionTitle, FeatureTitle, FloorPlansTitle, LocationTitle, OverviewTitle, PropertyDescriptionTitle, ReviewsTitle, ScheduleTourTitle, VideoTitle } from "../constants";
-import Overview from "../components/commonComponents/productDetail/detailBody/detailBodyItem/Overview";
-import Description from "../components/commonComponents/productDetail/detailBody/detailBodyItem/Description";
-import FloorPlans from "../components/commonComponents/productDetail/detailBody/detailBodyItem/FloorPlans";
-import Video from "../components/commonComponents/productDetail/detailBody/detailBodyItem/Video";
-import Location from "../components/commonComponents/productDetail/detailBody/detailBodyItem/Location";
-import Reviews from "../components/commonComponents/productDetail/detailBody/detailBodyItem/Reviews";
-import ScheduleTour from "../components/commonComponents/productDetail/detailBody/detailBodyItem/ScheduleTour";
-import Amenities from "../components/commonComponents/productDetail/detailBody/detailBodyItem/Amenities";
+import Overview from "../app/components/commonComponents/productDetail/detailBody/detailBodyItem/Overview";
+import Description from "../app/components/commonComponents/productDetail/detailBody/detailBodyItem/Description";
+import FloorPlans from "../app/components/commonComponents/productDetail/detailBody/detailBodyItem/FloorPlans";
+import Video from "../app/components/commonComponents/productDetail/detailBody/detailBodyItem/Video";
+import Location from "../app/components/commonComponents/productDetail/detailBody/detailBodyItem/Location";
+import Reviews from "../app/components/commonComponents/productDetail/detailBody/detailBodyItem/Reviews";
+import ScheduleTour from "../app/components/commonComponents/productDetail/detailBody/detailBodyItem/ScheduleTour";
 import { FilterDataType } from "../types/Product";
+import Amenities from "../app/components/commonComponents/productDetail/detailBody/detailBodyItem/Amenities";
+
 import { AmenitiesList, CraNavDetailsList, IconLinkList, OverviewList, OverviewValueList, ReviewsList, SectionsList } from "../types/CommonComponents";
 
 export const PropertyTypeData: FilterDataType[] = [

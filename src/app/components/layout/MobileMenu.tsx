@@ -10,12 +10,12 @@ const MobileMenu = () => {
   const dispatch = useAppDispatch();
   const [Path] = UsePathName();
 
-  const NavigateShortlist = Path.includes("job") ? routes.Job.JobWishlist : Path.includes("property") ? routes.Property.PropertyWishlist : routes.Car.CarWishlist;
+  const NavigateShortlist = routes.Product.Products;
 
   return (
     <ul className={`mobile-menu ${Path === "car-2" ? "dark-mobile-menu" : Path === "job" ? "job-color-change" : ""}`}>
       <li className="active">
-        <Link to={routes.Home.CarDemo1}>
+        <Link to={routes.Home.Landing}>
           <House className="iconsax" />
           <span>{Home}</span>
         </Link>
